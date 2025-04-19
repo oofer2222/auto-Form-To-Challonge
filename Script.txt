@@ -1,7 +1,7 @@
 function onFormSubmit(e) {
 var name = e.values[1]; // Adjust index if needed
-var tournamentId = 'RBACUP1'; // From Challonge URL
-var apiKey = 'tcGczSv1tOIcdZKXDMbC3t0WI3w0CeIhvDviKiKa';
+var tournamentId = ''; // From Challonge URL
+var apiKey = '';
 
 var url = 'https://api.challonge.com/v1/tournaments/' + tournamentId + '/participants.json';
 
